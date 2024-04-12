@@ -1,0 +1,1 @@
+0. It only print "I" there is no int type in the code.
