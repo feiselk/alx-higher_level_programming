@@ -5,6 +5,10 @@ def safe_print_integer_err(value):
         if isinstance(value, int):
             print("{:d}".format(value))
             return True
+        elif isinstance(value, dict):
+            raise TypeError
+            return False
+
         else:
             raise TypeError
     except TypeError:
