@@ -10,4 +10,3 @@ def safe_print_integer_err(value):
             return False
     except TypeError:
         print("Exception: Unknown format code 'd' for object of type 'str'")
-
